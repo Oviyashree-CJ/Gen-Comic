@@ -6,14 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 import io
 import time
 import textwrap
-from flask import Flask, render_template, request, jsonify
-import requests
-import os
-from dotenv import load_dotenv
-from PIL import Image, ImageDraw, ImageFont
-import io
-import time
-import textwrap
+
 
 app = Flask(__name__)
 load_dotenv()
